@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <script type="text/javascript" src="jquery_tablesorter/jquery-latest.js"></script> 
+        <script type="text/javascript" src="jquery_tablesorter/jquery.tablesorter.js"></script> 
+        
+   
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <button class="btn btn-default">Sort by Date</button>
+                <button class="btn btn-default">asc</button>
+                <button class="btn btn-default">desc</button>
+            </div>
+        </div>
+        <div class="table-responsive">
+
+          <table id="myTable" class="table tablesorter">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Upload Date</th>
+                    <th>Shared With</th>
+                    <th>Download</th>
+                </tr>
+                
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>A</th>
+                    <th>Lorem Ipsum</th>
+                    <th>05/06/2015</th>
+                    <th>lorem ipsum</th>
+                    <th><button>Download</button></th>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <th>B</th>
+                    <th>Lorem Ipsum</th>
+                    <th>06/07/2016</th>
+                    <th>lorem ipsum</th>
+                    <th><button>Download</button></th>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <th>C</th>
+                    <th>Lorem Ipsum</th>
+                    <th>07/08/2013</th>
+                    <th>lorem ipsum</th>
+                    <th><button>Download</button></th>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+        
+    </body>
+    <script src="custom.js"></script>
+</html>
